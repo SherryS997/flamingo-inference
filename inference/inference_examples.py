@@ -147,7 +147,7 @@ def main(config_file, data_root, checkpoint_path, items, inference_kwargs, is_di
 
 
 if __name__ == "__main__":
-    data_root = 'model_ckpts/datasets'
+    data_root = '/home/sherry/Code/flamingo-inference/model_ckpts/datasets'
 
     # ---------- foundation model ---------- #
 

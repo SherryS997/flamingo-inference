@@ -137,7 +137,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     global DATA_ROOT_DIR
-    DATA_ROOT_DIR = "model_ckpts"
+    DATA_ROOT_DIR = "/home/sherry/Code/flamingo-inference/model_ckpts"
 
     config_file = args.config_file
     checkpoint_path = args.checkpoint_path

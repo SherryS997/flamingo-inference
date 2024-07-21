@@ -21,9 +21,9 @@ Replace ```YOUR_REPO_ROOT_DIR``` to your absolute path in the following places:
 - ```configs/*.yaml --> clap_config --> config_root```
 
 
-Let ```model_ckpts``` be the absolute path to store all data, checkpoints, etc. We use the following structure
+Let ```YOUR_MODEL_DIR``` be the absolute path to store all data, checkpoints, etc. We use the following structure
 ```
-model_ckpts/
+YOUR_MODEL_DIR/
   - datasets/
     - <dataset_name_i>/
       - files: raw data of this dataset, including raw waveforms, metadata, etc.
@@ -48,7 +48,7 @@ model_ckpts/
     - LLM_pretrained/.cache/  # place to store HuggingFace cache instead of the default ~/.cache
 ```
 
-Replace ```model_ckpts``` and ```YOUR_CHECKPOINT_ROOT_DIR``` to your absolute path in the following places:
+Replace ```YOUR_MODEL_DIR``` and ```YOUR_CHECKPOINT_ROOT_DIR``` to your absolute path in the following places:
 - ```configs/*.yaml```
 - ```inference_examples.py --> __main__```
 - ```launch_gradio.py --> __main__```
