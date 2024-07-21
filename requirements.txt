@@ -35,3 +35,5 @@ torchvision==0.15.2
 tqdm
 transformers==4.27.4
 webrtcvad==2.0.10
+flask
+requests
