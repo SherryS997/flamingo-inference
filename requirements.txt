@@ -1,6 +1,6 @@
 apex
 braceexpand
-contextlib
+contextlib3
 einops
 einops-exts
 fairseq==0.12.2

@@ -117,12 +117,12 @@ if __name__ == "__main__":
     model = prepare_model(
         model_config=model_config, 
         clap_config=clap_config, 
-        checkpoint_path="YOUR_CHECKPOINT_ROOT_DIR/chat.pt"
+        checkpoint_path="model_ckpts/chat.pt"
     )
 
     # Set up data processor
     DataProcessor = AudioTextDataProcessor(
-        data_root='model_ckpts/datasets',
+        data_root='../model_ckpts/datasets',
         clap_config=clap_config,
         tokenizer=text_tokenizer,
         max_tokens=512,
