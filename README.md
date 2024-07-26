@@ -25,7 +25,7 @@ Follow these steps to set up and use the AudioFlamingo API:
 
 2. Install the required dependencies:
    ```
-   python -m venv env python==3.8
+   python -m venv env python==3.9
    pip install -r requirements.txt
    ```
 
